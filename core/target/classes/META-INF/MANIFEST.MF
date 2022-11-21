@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bundle-Category: Capstone
+Bundle-Description: Core bundle for Capstone
+Bundle-ManifestVersion: 2
+Bundle-Name: Capstone - Core
+Bundle-SymbolicName: capstone.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.gofortrainings.capstone.core.filters;version="1.0"
+ ;uses:="javax.servlet",com.gofortrainings.capstone.core.listeners;ver
+ sion="1.0";uses:="org.apache.sling.api.resource.observation",com.gofo
+ rtrainings.capstone.core.models;version="1.0";uses:="javax.annotation
+ ,org.apache.sling.api.resource,org.apache.sling.models.annotations,or
+ g.apache.sling.models.annotations.injectorspecific",com.gofortraining
+ s.capstone.core.schedulers;version="1.0",com.gofortrainings.capstone.
+ core.servlets;version="1.0";uses:="javax.servlet,org.apache.sling.api
+ ,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
+ rsion="[1.29,2)",com.gofortrainings.capstone.core.filters;version="[1
+ .0,2)",com.gofortrainings.capstone.core.listeners;version="[1.0,2)",c
+ om.gofortrainings.capstone.core.schedulers;version="[1.0,2)",com.gofo
+ rtrainings.capstone.core.servlets;version="[1.0,2)",javax.servlet;ver
+ sion="[2.6,3)",org.apache.sling.api;version="[2.3,3)",org.apache.slin
+ g.api.request;version="[2.7,3)",org.apache.sling.api.resource;version
+ ="[2.13,3)",org.apache.sling.api.resource.observation;version="[1.2,2
+ )",org.apache.sling.api.servlets;version="[2.3,3)",org.apache.sling.m
+ odels.annotations;version="[1.5,2)",org.apache.sling.models.annotatio
+ ns.injectorspecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.5.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.gofortrainings.capstone.core.filters.L
+ oggingFilter.xml,OSGI-INF/com.gofortrainings.capstone.core.listeners.
+ SimpleResourceListener.xml,OSGI-INF/com.gofortrainings.capstone.core.
+ schedulers.SimpleScheduledTask.xml,OSGI-INF/com.gofortrainings.capsto
+ ne.core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.gofortrainings.capstone.core.models.HelloWorl
+ dModel
+

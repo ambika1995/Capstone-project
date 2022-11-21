@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-21T12:04:47.252+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/capstone/settings/wcm/templates/capstone-home-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Capstone-Article"
+        sling:resourceType="capstone/components/capstone-home-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="capstone/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2022-11-16T12:46:13.779+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-11-16T12:46:41.528+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="capstone/components/container">
+                <footer
+                    jcr:created="{Date}2022-11-16T12:46:21.354+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-11-16T12:46:21.354+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/footer"/>
+                <text
+                    jcr:created="{Date}2022-11-21T12:03:32.052+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-11-21T12:04:47.242+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="capstone/components/text"
+                    text="&lt;h3>Understand Your Mind&lt;/h3>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/not-giving-a-fuck&quot;>The Subtle Art of Not Giving a Fuck&lt;/a>&amp;nbsp;– The most popular article on the site and the impetus for the worldwide bestselling book by the same name.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/personal-values&quot;>Guide to Personal Values&lt;/a>&amp;nbsp;– An in-depth look at how we come to value the things we value and how this affects who we are.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/how-to-grow-up&quot;>How to Grow Up&lt;/a>&amp;nbsp;– A step-by-step breakdown of the psychology of growth and development. A look at how humans mature and grow through experience and self-questioning.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/the-one-rule-for-life&quot;>The One Rule for Life&lt;/a>&amp;nbsp;– What makes an action right or wrong? What makes a person good or bad? Well, there’s a rule for that.&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;h3>Emotional Intelligence&lt;/h3>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/fuck-your-feelings&quot;>Fuck Your Feelings&lt;/a>&amp;nbsp;– The best starting place to understand your emotions and your relationship to them.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/self-awareness&quot;>The 3 Levels of Self-Awareness&lt;/a>&amp;nbsp;– Are you self-aware? Are you sure? Because you’re probably not as self-aware as you think you are.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/why-the-best-things-in-life-are-all-backwards&quot;>Why the Best Things in Life Are Backwards&lt;/a>&amp;nbsp;– There’s an odd tendency in our psychology where the more we desire something the harder it is to get.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/disease-of-more&quot;>The Disease of More&lt;/a>&amp;nbsp;– Hedonic treadmills, baselines of happiness, constant dissatisfaction, it’s the disease of more. And we’re all afflicted.&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;h3>Life Purpose&lt;/h3>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/life-purpose&quot;>7 Strange Questions that Help You Find Your Life Purpose&lt;/a>&amp;nbsp;– The best place to start if you’re questioning what you’re meant to be doing in this world.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/question&quot;>The Most Important Question of Your Life&lt;/a>&amp;nbsp;– What is the most important question to be asking yourself? I would argue it’s this.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/screw-finding-your-passion&quot;>Screw Finding Your Passion&lt;/a>&amp;nbsp;– Everyone wants to find their passion these days, but what does that really mean?&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/four-stages-of-life&quot;>The Four Stages of Life&lt;/a>&amp;nbsp;– We all tend to move through similar stages in our lives. Here’s a fun look at how time and experience change us.&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;h3>Healthy Relationships&lt;/h3>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/love&quot;>Love Is Not Enough&lt;/a>&amp;nbsp;– We all worship love in our culture, but the truth is that a healthy relationship needs far more than just love.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/fuck-yes&quot;>Fuck Yes or No&lt;/a>&amp;nbsp;– When it comes to choosing your commitments, if it’s not a Fuck Yes, then it should be a no.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/toxic-relationship-signs&quot;>6 Toxic Relationship Habits Most People Think Are Normal&lt;/a>&amp;nbsp;– It’s crazy how many fucked up things pass in relationships as “normal.” Don’t be one of these people.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/how-to-let-go&quot;>How to Let Go&lt;/a>&amp;nbsp;– A deep and psychological look at what happens when you lose someone or a relationship that’s important to you, with advice on how to cope.&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;h3>Self-Discipline&lt;/h3>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/self-discipline&quot;>If Self-Discipline Feels Difficult, Then You’re Doing It Wrong&lt;/a>&amp;nbsp;– Self-discipline shouldn’t be hard. In fact, it isn’t, when you know how to do it.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/attention-diet&quot;>The Attention Diet&lt;/a>&amp;nbsp;– We live in an unprecedented time when we are overflowing with information. This article explains how to take care of our attention and focus.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/5-mindsets-that-create-success&quot;>Five Mindsets that Create Success&lt;/a>&amp;nbsp;– Some mindsets are better than others. Here are five that are proven to make you a more productive and successful person.&lt;/li>&#xd;&#xa;&lt;li>&lt;a href=&quot;https://markmanson.net/how-to-be-more-productive&quot;>How to Be More Productive by Working Less&lt;/a>&amp;nbsp;– Productivity isn’t always just a function of the hours you work. Sometimes you need to work smarter, not harder.&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
